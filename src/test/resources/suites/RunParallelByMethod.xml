@@ -1,0 +1,70 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Parallel Suite All" verbose="1" parallel="methods">
+
+    <test name="Test Parallel 1">
+        <classes>
+            <class name="com.anhtester.testcases.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Parallel 2">
+        <classes>
+            <class name="com.anhtester.testcases.ForgotPasswordTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Parallel 3">
+        <classes>
+            <class name="com.anhtester.testcases.DashboardTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Parallel 4">
+        <classes>
+            <class name="com.anhtester.testcases.EditProfileTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Parallel 5">
+        <classes>
+            <class name="com.anhtester.testcases.CustomersTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Parallel 6">
+        <classes>
+            <class name="com.anhtester.testcases.ExpensesTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Parallel 7">
+        <classes>
+            <class name="com.anhtester.testcases.ContractsTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Parallel 8">
+        <classes>
+            <class name="com.anhtester.testcases.ProjectsTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Parallel 9">
+        <classes>
+            <class name="com.anhtester.testcases.TasksTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Parallel 10">
+        <classes>
+            <class name="com.anhtester.testcases.LeadsTest"/>
+        </classes>
+    </test>
+
+    <test name="Test Parallel 11">
+        <classes>
+            <class name="com.anhtester.testcases.KnowledgeBaseTest"/>
+        </classes>
+    </test>
+</suite>
